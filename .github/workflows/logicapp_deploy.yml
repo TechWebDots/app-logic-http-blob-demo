@@ -24,7 +24,7 @@ jobs:
     - name: Package logic
       run: (cd logicapps; mkdir -p ../output; zip -r ../output/logic.zip .)
     - name: Upload app zip package
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: logic
         path: ./output/
