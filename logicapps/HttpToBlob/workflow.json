@@ -23,7 +23,7 @@
                 "kind": "Http",
                 "inputs": {
                     "statusCode": 200,
-                    "body": "@concat(body('Upload_blob_to_storage_container')?['properties']?['blobFullPathWithContainer'], 'Test003')"
+                    "body": "@concat(body('Upload_blob_to_storage_container')?['properties']?['blobFullPathWithContainer'], 'Test004')"
                 },
                 "runAfter": {
                     "Upload_blob_to_storage_container": [
